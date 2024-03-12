@@ -1,0 +1,2110 @@
+*{
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: #edede9;
+}
+/*--first page--*/
+
+.firstpage{
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius:500px 800px;
+    border-top-right-radius: 500px 800px;
+    width: 98%;
+    background: #ccd5ae;
+    height: 650px;
+    padding: 10px;
+    
+}
+button{
+    border-radius: 5px;
+    border: none;
+    
+}
+button:hover{
+    background: linear-gradient(#edede9 0%, #84b1b6 80%);
+}
+.firstpage span{
+    color: white;
+}
+.contents{
+    flex: 30%;
+    text-align: left;
+    padding: 300px;
+    padding-top: 180px;
+    padding-left: 250px;
+    padding-right: 30px;
+    
+}
+
+.courselink{
+    display: flex;
+    justify-content:flex-start;
+}
+.courselink span{
+    color: red;
+}
+.courselink .material-symbols-outlined{
+    padding: 10px;
+}
+
+.contents p{
+    margin: 10px;
+    
+}
+
+.photos{
+    flex: 50%;
+}
+.photos img{
+    border-radius: 10px;
+    padding-top: 120px;
+    border-radius: 30px;
+    height: 540px;
+    width: 550px;
+    opacity: 0.8;
+}
+/*--first page ends--*/
+/*--second page --*/
+.secondpage{
+    background: #edede9;
+    display: flex;
+    flex-direction: column;
+}
+.secondpage .starting{
+    padding: 120px;
+    text-align: center;
+}
+.glimpse {
+    display: flex;
+    overflow: hidden;
+    margin: 30px;
+    margin-top: 0;
+
+    
+}
+
+.lecture{
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    cursor: pointer;
+}
+.descrip{
+    padding: 5px;
+    text-align: center;
+    flex-direction: column;
+    
+}
+#lectured{
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    display: none;
+    background: #ccd5ae;
+    border-radius: 25px;
+    
+}
+#lectured1{
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    display: none;
+    background: #ccd5ae;
+    border-radius: 25px;
+    
+}
+#lectured2{
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    display: none;
+    background: #ccd5ae;
+    border-radius: 25px;
+    
+}
+#lectured3{
+    padding: 10px;
+    flex: 25%;
+    height: 200px;
+    display: none;
+    background: #ccd5ae;
+    border-radius: 25px;
+    
+}
+.alumni{
+    display: flex;
+}
+.teacher{
+    flex: 40%;
+    padding: 10px;
+    
+}
+.teacher img{
+    border-radius: 50%;
+    padding: 90px 50px;
+}
+.info{
+    justify-content: left;
+    flex:60%;
+}
+.context{
+    text-align: left;
+    padding-top: 115px;
+    padding-left: 10px;
+    
+}
+.navtitle{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+#col{
+    padding:25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background: #ccd5ae;
+    display: block;
+}
+#topic{
+    padding-right: 55px;
+    text-decoration-line: underline;
+}
+#topic1{
+    padding-right: 55px;
+    text-decoration-line: none;
+}
+#topic2{
+    padding-right: 55px;
+    text-decoration-line: none;
+}
+#para3{
+    display: none;
+}
+#para1{
+    display: block;
+}
+#para2{
+    display: none;
+}
+#col button{
+    width:100px;
+    height: 20px;
+    border-radius: 50px;
+    border-color: none;
+}
+/**--second page ends--*/
+/*--third page starts--*/
+.thirdpage{
+    background:  #edede9;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2px;
+    margin-top: 0;
+
+    border:none;
+}
+.thirdtitle{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.thirdpagerow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+}
+.thirdpagerow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+}
+.r0{
+    flex: 40%;
+    overflow: hidden;
+    position: relative;
+
+}
+.r0 img{
+    border-radius: 25px;
+   
+}
+.r1{
+    flex: 40%;
+    overflow: hidden;
+    position: relative;
+}
+.r1 img{
+    border-radius: 25px;
+    
+}
+.r2{
+    flex: 40%;
+    overflow: hidden;
+    position: relative;
+}
+.r2 img{
+    border-radius: 25px;
+    
+}
+.p1{
+    margin-left: 35px;
+    width:80%;
+    border-radius: 25px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    position: absolute;
+    background-color:white;
+    opacity: 0;
+    transition: height 0.5s;
+    
+}
+.r1:hover .p1{
+    cursor: pointer;
+    bottom: 0;
+    height: 45%;
+    left: 2%;
+    opacity: 0.8;
+}
+.p2{
+    margin-left: 48px;
+    width:80%;
+    border-radius: 25px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    position: absolute;
+    background-color:white;
+    opacity: 0;
+    transition: height 0.5s;
+    
+}
+.r2:hover .p2{
+    cursor: pointer;
+    bottom: 0;
+    height: 45%;
+    left: -1%;
+    opacity: 0.8;
+}
+.p0{
+    margin-left: 48px;
+    width:80%;
+    border-radius: 25px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    transition: height 0.5s;
+    
+    
+}
+.r0:hover .p0{
+    cursor: pointer;
+    bottom: 0;
+    height: 45%;
+    left: -1%;
+    opacity: 0.8;
+}
+
+
+.thirdpage button{
+    width: 20%;
+    height: 45%;
+    text-align: center;
+}
+.btn3{
+    margin-left: 45%;
+    font-size: medium;
+}
+.btn3 button{
+    background-color:#ccd5ae;
+    height: 60px;
+}
+/*--third page ends--*/
+/*--fourthpage starts--*/
+.fourthpage{
+    margin-top: 5%;
+    padding-left:140px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.context4{
+    flex: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 0;
+    
+}
+.title4{
+    margin: 25px;
+    margin-bottom: 10px;
+    padding: 25px;
+    font-weight: 200;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.subbox1{
+    text-align: center;
+    font-size: large;
+    background-color: #e3e3e3;
+    margin-left: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border:1px solid black;
+}
+.subbox2{
+    padding: 35px;
+    text-align: left;
+    margin-left: 40px;
+    background-color: #edede9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border:1px solid black;
+}
+.box2{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius:8px;
+    border:1px solid black;
+}
+.image4{
+    margin-top: 250px;
+    flex: 55%;
+    margin-left: 150px;
+    padding-right: 45px;
+    
+
+}
+.image4 img{
+    border-radius: 20px;
+
+}
+/*--fourth page ends--*/
+/*--sixth page starts--*/
+.sixthpage{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.sixthpage .yt{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-between;
+}
+.yt1{
+    flex: 40%;
+    padding-left: 40px;
+    transition-timing-function: linear;
+}
+.yt iframe{
+    border-radius: 25px;
+}
+.yt1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gallery .galleryrow1{
+    margin-top: 40px;
+    display: flex;
+    width:45%;
+    justify-content: space-between;
+}
+.gallery .galleryrow2{
+    margin-top: 40px;
+    display: flex;
+    width:45%;
+    justify-content: space-between;
+}
+.gallery .galleryy{
+    margin: 5px;
+}
+.gallery img{
+    border-radius: 15px;
+}
+/*--sixth page ends--*/
+/*seventh page starts--*/
+.sixthpage .lastpage{
+    display: flex ;
+    flex-direction: column;
+}
+.sixthpage .lastpage .lasttitle{
+    text-align: center;
+    justify-content: center;
+}
+.sixthpage .lastpage .lasttitle span{
+    color: red;
+}
+.sixthpage .lastimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px;
+}
+.lastimage .lasttext1{
+    flex: 30%;
+    overflow: hidden;
+    position: relative;
+
+    
+
+}
+.lasttext1 img{
+    border-radius: 25px;
+}
+
+.lastimage .lasttext2{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    position: absolute;
+    left:440px;
+
+}
+.lasttext2 img{
+    border-radius: 25px;
+}
+.lastimage .lasttext3{
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    position: absolute;
+    left:70px;
+}
+.lasttext3 img{
+    border-radius: 25px;
+}
+.lastpara{
+    padding-top: 8px;
+    margin-left: 35px;
+    width:60%;
+    border-radius: 25px;
+    top: 20%;
+    bottom: 0;
+    height: 50%;
+    left: 14%;
+    opacity: 0.9;
+    text-align: center;
+    position: absolute;
+    background-color:#ccd5ae;
+    transition-timing-function: linear;
+}
+.lastpara:hover{
+    box-shadow:15px 15px 2px #d3d8c0;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*--seventh page ends--*/
+/*--footer starts--*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    background: #ccd5ae;
+    padding:100px;
+}
+.footercol1{
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.footerform input{
+    margin:5px;
+    width:180px;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    .firstpage{
+        display: flex;
+        justify-content: space-between;
+        border-bottom-left-radius:40% 40%;
+        border-top-right-radius: 40% 40%;
+        width: 90%;
+        background: #ccd5ae;
+        height: 650px;
+        padding: 10px;
+        
+    }
+    button{
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button:hover{
+        background: linear-gradient(#edede9 0%, #84b1b6 80%);
+    }
+    .firstpage span{
+        color: white;
+    }
+    .contents{
+        flex: 30%;
+        text-align: left;
+        font-size: 10px ;
+        padding: 300px;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 10px;
+        
+    }
+    
+    .courselink{
+        display: flex;
+        justify-content:flex-start;
+    }
+    .courselink span{
+        color: red;
+    }
+    .courselink .material-symbols-outlined{
+        padding: 10px;
+    }
+    
+    .contents p{
+        margin: 10px;
+        
+    }
+    
+    .photos{
+        flex: 50%;
+    }
+    .photos img{
+        border-radius: 10px;
+        padding-top: 180px;
+        border-radius: 30px;
+        height: 50%;
+        width: 100%;
+        opacity: 0.8;
+    }
+    /*--second page --*/
+    .secondpage{
+        background: #edede9;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .secondpage .starting{
+        padding: 5%;
+        text-align: center;
+    }
+    .glimpse {
+        display: flex;
+        overflow: scroll;
+        margin: 10%;
+        margin-top: 0;
+
+        
+    }
+
+    .lecture{
+        padding: 10px;
+        flex: 25%;
+        height: 200px;
+        cursor: pointer;
+    }
+    .descrip{
+        padding: 5%;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    #lectured{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured1{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured2{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured3{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    .alumni{
+        display: flex;
+    }
+    .teacher{
+        flex: 60%;
+        padding: 3%;
+        justify-content: center;
+        
+    }
+    .teacher img{
+        width:100%;
+        height:40%;
+        border-radius: 50%;
+        padding: 90px 50px;
+    }
+    .info{
+        justify-content: center;
+        flex:40%;
+        margin-left: 15%;
+    }
+    .context{
+        text-align: left;
+        padding-top: 115px;
+        padding-left: 15%;
+        
+    }
+    .navtitle{
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        padding-left: 15%;
+    }
+    #col{
+        padding:25px;
+        margin-right: 10px;
+        border-radius: 50px;
+        background: #ccd5ae;
+        display: block;
+    }
+    #topic{
+        padding-right: 10%;
+        text-decoration-line: underline;
+    }
+    #topic1{
+        padding-right: 5%;
+        text-decoration-line: none;
+    }
+    #topic2{
+        padding-right: 55px;
+        text-decoration-line: none;
+    }
+    #para3{
+        display: none;
+    }
+    #para1{
+        display: block;
+    }
+    #para2{
+        display: none;
+    }
+    #col button{
+        width:100px;
+        height: 20px;
+        border-radius: 50px;
+        border-color: none;
+    }
+    /**--second page ends--*/
+    /*--third page starts--*/
+    .thirdpage{
+        background:  #edede9;
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2px;
+        margin-top: 0;
+
+        border:none;
+    }
+    .thirdtitle{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .thirdpagerow1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+       
+    }
+    .thirdpagerow2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px;
+        overflow: scroll;
+    }
+    .r0{
+        flex: 25%;
+        position: relative;
+
+    }
+    .r0 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    
+    }
+    .r1{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+        
+    }
+    .r1 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    .r2{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+    }
+    .r2 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    
+    .p1{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r1:hover .p1{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+    .p2{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r2:hover .p2{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+    .p0{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r0:hover .p0{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+
+
+    .thirdpage button{
+        width: 40%;
+        height: 45%;
+        text-align: center;
+    }
+    .btn3{
+        margin-left: 35%;
+        font-size: medium;
+    }
+    .btn3 button{
+        background-color:#ccd5ae;
+        height: 60px;
+    }
+    /*--third page ends--*/
+    /*--fourthpage starts--*/
+    .fourthpage{
+        margin-top: 5%;
+        padding-left:0;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .context4{
+        flex: 45%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 0;
+        
+    }
+    .title4{
+        margin: 10%;
+        margin-bottom: 3%;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .subbox1{
+        text-align: center;
+        font-size: large;
+        background-color: #e3e3e3;
+        margin-left: 5%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border:1px solid black;
+    }
+    .subbox2{
+        padding: 35px;
+        text-align: left;
+        margin-left: 5%;
+        background-color: #edede9;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border:1px solid black;
+    }
+    .box2{
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 40px;
+        border-radius:8px;
+        border:1px solid black;
+    }
+    .image4{
+        margin-top: 40%;
+        flex: 50%;
+        margin-left: 5%;
+        padding-right: 45px;
+        
+
+    }
+    /*--sixth page starts--*/
+    .sixthpage{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sixthpage .yt{
+        display: flex;
+        flex-direction: row;
+        padding: 15%;
+        overflow: scroll;
+
+    }
+    .yt1{
+        flex: 50%;
+        padding-left: 15%;
+        transition-timing-function: linear;
+    }
+    
+    .yt1 iframe{
+        border-radius: 25px;
+        width: 400px;
+    }
+    .yt1:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .gallery{
+        overflow: scroll;
+    }
+    /*--sixth page ends--*/
+    .sixthpage .lastpage{
+        display: flex ;
+        flex-direction: column;
+    }
+    .sixthpage .lastpage .lasttitle{
+        text-align: center;
+        justify-content: center;
+    }
+    .sixthpage .lastpage .lasttitle span{
+        color: red;
+    }
+    .sixthpage .lastimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 50px;
+    }
+    .lastimage .lasttext1{
+        overflow: hidden;
+        position: relative;
+    
+        
+    
+    }
+    .lasttext1 img{
+        border-radius: 25px;
+    }
+    
+   
+    .lastpara{
+        padding-top: 8px;
+        margin-left: 35px;
+        width:60%;
+        border-radius: 25px;
+        top: 20%;
+        bottom: 0;
+        height: 60%;
+        left: 14%;
+        opacity: 0.9;
+        text-align: center;
+        position: absolute;
+        background-color:#ccd5ae;
+        transition-timing-function: linear;
+    }
+    .lastpara:hover{
+        box-shadow:15px 15px 2px #d3d8c0;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    /*--seventh page ends--*/
+    /*--footer starts--*/
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background: #ccd5ae;
+        justify-content: space-between;
+    }
+    .footercol1{
+        flex: 25%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 5%;
+        
+    }
+    .footerform input{
+        margin:2%;
+        width:100%;
+        padding: 2%;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    
+    
+}
+@media (min-width: 601px) and (max-width: 768px){
+    .firstpage{
+        display: flex;
+        justify-content: space-between;
+        border-bottom-left-radius: 60% 60%;
+        border-top-right-radius: 60% 60%;
+        width: 90%;
+        background: #ccd5ae;
+        height: 650px;
+        padding: 5%;
+        
+    }
+    button{
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button:hover{
+        background: linear-gradient(#edede9 0%, #84b1b6 80%);
+    }
+    .firstpage span{
+        color: white;
+    }
+    .contents{
+        flex: 30%;
+        text-align: left;
+        padding: 300px;
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 30px;
+        font-size: 15px ;
+        
+    }
+    
+    .courselink{
+        display: flex;
+        justify-content:flex-start;
+    }
+    .courselink span{
+        color: red;
+    }
+    .courselink .material-symbols-outlined{
+        padding: 10px;
+    }
+    
+    .contents p{
+        margin: 10px;
+        
+    }
+    
+    .photos{
+        flex: 50%;
+    }
+    .photos img{
+        border-radius: 10px;
+        padding-top: 200px;
+        border-radius: 30px;
+        height: 40%;
+        width:80%;
+        opacity: 0.8;
+    }
+    /*--second page --*/
+    .secondpage{
+        background: #edede9;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .secondpage .starting{
+        padding: 5%;
+        text-align: center;
+    }
+    .glimpse {
+        display: flex;
+        overflow: scroll;
+        margin: 10%;
+        margin-top: 0;
+
+        
+    }
+
+    .lecture{
+        padding: 10px;
+        flex: 25%;
+        height: 200px;
+        cursor: pointer;
+    }
+    .descrip{
+        padding: 5%;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    #lectured{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured1{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured2{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured3{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    .alumni{
+        display: flex;
+    }
+    .teacher{
+        flex: 60%;
+        padding: 3%;
+        justify-content: center;
+        
+    }
+    .teacher img{
+        width:100%;
+        height:40%;
+        border-radius: 50%;
+        padding: 90px 50px;
+    }
+    .info{
+        justify-content: center;
+        flex:40%;
+        margin-left: 15%;
+    }
+    .context{
+        text-align: left;
+        padding-top: 115px;
+        padding-left: 15%;
+        
+    }
+    .navtitle{
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        padding-left: 15%;
+    }
+    #col{
+        padding:25px;
+        margin-right: 10px;
+        border-radius: 50px;
+        background: #ccd5ae;
+        display: block;
+    }
+    #topic{
+        padding-right: 10%;
+        text-decoration-line: underline;
+    }
+    #topic1{
+        padding-right: 5%;
+        text-decoration-line: none;
+    }
+    #topic2{
+        padding-right: 55px;
+        text-decoration-line: none;
+    }
+    #para3{
+        display: none;
+    }
+    #para1{
+        display: block;
+    }
+    #para2{
+        display: none;
+    }
+    #col button{
+        width:100px;
+        height: 20px;
+        border-radius: 50px;
+        border-color: none;
+    }
+    /**--second page ends--*/
+    /*--third page starts--*/
+    .thirdpage{
+        background:  #edede9;
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2px;
+        margin-top: 0;
+
+        border:none;
+    }
+    .thirdtitle{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .thirdpagerow1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+       
+    }
+    .thirdpagerow2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px;
+        overflow: scroll;
+    }
+    .r0{
+        flex: 25%;
+        position: relative;
+
+    }
+    .r0 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    
+    }
+    .r1{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+        
+    }
+    .r1 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    .r2{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+    }
+    .r2 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    
+    .p1{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r1:hover .p1{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+    .p2{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r2:hover .p2{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+    .p0{
+        margin-left: 48px;
+        width:80%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r0:hover .p0{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: -1%;
+        opacity: 0.8;
+    }
+
+
+    .thirdpage button{
+        width: 40%;
+        height: 45%;
+        text-align: center;
+    }
+    .btn3{
+        margin-left: 35%;
+        font-size: medium;
+    }
+    .btn3 button{
+        background-color:#ccd5ae;
+        height: 60px;
+    }
+    /*--third page ends--*/
+    /*--fourthpage starts--*/
+    .fourthpage{
+        margin-top: 5%;
+        padding-left:0;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .context4{
+        flex: 45%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 0;
+        
+    }
+    .title4{
+        margin: 10%;
+        margin-bottom: 3%;
+        padding: 5%;
+        font-weight: 200;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .subbox1{
+        text-align: center;
+        font-size: large;
+        background-color: #e3e3e3;
+        margin-left: 5%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border:1px solid black;
+    }
+    .subbox2{
+        padding: 35px;
+        text-align: left;
+        margin-left: 5%;
+        background-color: #edede9;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border:1px solid black;
+    }
+    .box2{
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 40px;
+        border-radius:8px;
+        border:1px solid black;
+    }
+    .image4{
+        margin-top: 40%;
+        flex: 50%;
+        margin-left: 5%;
+        padding-right: 45px;
+        
+
+    }
+    .image4 img{
+        border-radius: 20px;
+        width:100%;
+        height: 50%;
+
+    }
+    /*--fourth page ends--*/
+    /*--sixth page starts--*/
+    .sixthpage{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sixthpage .yt{
+        display: flex;
+        flex-direction: row;
+        padding: 15%;
+        overflow: scroll;
+
+    }
+    .yt1{
+        flex: 50%;
+        padding-left: 15%;
+        transition-timing-function: linear;
+    }
+    
+    .yt1 iframe{
+        border-radius: 25px;
+        width: 400px;
+    }
+    .yt1:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .gallery{
+        overflow: scroll;
+    }
+    /*--sixth page ends--*/
+    /*--sixth page ends--*/
+    .sixthpage .lastpage{
+        display: flex ;
+        flex-direction: column;
+    }
+    .sixthpage .lastpage .lasttitle{
+        text-align: center;
+        justify-content: center;
+    }
+    .sixthpage .lastpage .lasttitle span{
+        color: red;
+    }
+    .sixthpage .lastimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 50px;
+    }
+    .lastimage .lasttext1{
+        overflow: hidden;
+        position: relative;
+    
+        
+    
+    }
+    .lasttext1 img{
+        border-radius: 25px;
+    }
+    
+   
+    .lastpara{
+        padding-top: 8px;
+        margin-left: 35px;
+        width:60%;
+        border-radius: 25px;
+        top: 20%;
+        bottom: 0;
+        height: 60%;
+        left: 14%;
+        opacity: 0.9;
+        text-align: center;
+        position: absolute;
+        background-color:#ccd5ae;
+        transition-timing-function: linear;
+    }
+    .lastpara:hover{
+        box-shadow:15px 15px 2px #d3d8c0;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    /*--seventh page ends--*/
+    /*--footer starts--*/
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background: #ccd5ae;
+        justify-content: space-between;
+    }
+    .footercol1{
+        flex: 25%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 10%;
+        
+    }
+    .footerform input{
+        margin:2%;
+        width:100%;
+        padding: 3%;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+} 
+@media (min-width: 769px) and (max-width: 992px){
+    .firstpage{
+        display: flex;
+        justify-content: space-between;
+        border-bottom-left-radius: 60% 60%;
+        border-top-right-radius: 60% 50%;
+        width: 90%;
+        background: #ccd5ae;
+        height: 650px;
+        padding: 5%;
+        
+    }
+    button{
+        border-radius: 5px;
+        border: none;
+        
+    }
+    button:hover{
+        background: linear-gradient(#edede9 0%, #84b1b6 80%);
+    }
+    .firstpage span{
+        color: white;
+    }
+    .contents{
+        flex: 30%;
+        text-align: left;
+        padding: 300px;
+        padding-top: 150px;
+        padding-left: 50px;
+        padding-right: 30px;
+        font-size: 15px ;
+        
+    }
+    
+    .courselink{
+        display: flex;
+        justify-content:flex-start;
+    }
+    .courselink span{
+        color: red;
+    }
+    .courselink .material-symbols-outlined{
+        padding: 10px;
+    }
+    
+    .contents p{
+        margin: 10px;
+        
+    }
+    
+    .photos{
+        flex: 50%;
+    }
+    .photos img{
+        border-radius: 10px;
+        padding-top: 200px;
+        border-radius: 30px;
+        height: 70%;
+        width:100%;
+        opacity: 0.8;
+    }
+    /*--second page --*/
+    .secondpage{
+        background: #edede9;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .secondpage .starting{
+        padding: 5%;
+        text-align: center;
+    }
+    .glimpse {
+        display: flex;
+        overflow: scroll;
+        margin: 10%;
+        margin-top: 0;
+
+        
+    }
+
+    .lecture{
+        padding: 10px;
+        flex: 25%;
+        height: 200px;
+        cursor: pointer;
+    }
+    .descrip{
+        padding: 5%;
+        text-align: center;
+        flex-direction: column;
+        
+    }
+    #lectured{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured1{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured2{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    #lectured3{
+        padding: 10px;
+        flex: 25%;
+        height: 50%;
+        display: none;
+        background: #ccd5ae;
+        border-radius: 25px;
+        
+    }
+    .alumni{
+        display: flex;
+    }
+    .teacher{
+        flex: 60%;
+        padding: 3%;
+        justify-content: center;
+        
+    }
+    .teacher img{
+        width:100%;
+        height:60%;
+        border-radius: 50%;
+        padding: 90px 50px;
+    }
+    .info{
+        justify-content: center;
+        flex:40%;
+        margin-left: 15%;
+    }
+    .context{
+        text-align: left;
+        padding-top: 115px;
+        padding-left: 15%;
+        
+    }
+    .navtitle{
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        padding-left: 15%;
+    }
+    #col{
+        padding:25px;
+        margin-right: 10px;
+        border-radius: 50px;
+        background: #ccd5ae;
+        display: block;
+    }
+    #topic{
+        padding-right: 10%;
+        text-decoration-line: underline;
+    }
+    #topic1{
+        padding-right: 5%;
+        text-decoration-line: none;
+    }
+    #topic2{
+        padding-right: 55px;
+        text-decoration-line: none;
+    }
+    #para3{
+        display: none;
+    }
+    #para1{
+        display: block;
+    }
+    #para2{
+        display: none;
+    }
+    #col button{
+        width:100px;
+        height: 20px;
+        border-radius: 50px;
+        border-color: none;
+    }
+    /**--second page ends--*/
+    /*--third page starts--*/
+    .thirdpage{
+        background:  #edede9;
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2px;
+        margin-top: 0;
+
+        border:none;
+    }
+    .thirdtitle{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .thirdpagerow1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+       
+    }
+    .thirdpagerow2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin: 50px;
+        overflow: scroll;
+    }
+    .r0{
+        flex: 25%;
+        position: relative;
+
+    }
+    .r0 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    
+    }
+    .r1{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+        
+    }
+    .r1 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    .r2{
+        flex: 25%;
+        position: relative;
+        margin-top: 5%;
+    }
+    .r2 img{
+        border-radius: 25px;
+        width:50%;
+        height: 50%;
+        
+    }
+    
+    .p1{
+        margin-left: 48px;
+        width:60%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r1:hover .p1{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: 14%;
+        opacity: 0.8;
+    }
+    .p2{
+        margin-left: 48px;
+        width:60%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r2:hover .p2{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: 14%;
+        opacity: 0.8;
+    }
+    .p0{
+        margin-left: 48px;
+        width:60%;
+        border-radius: 25px;
+        height: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        position: absolute;
+        background-color:white;
+        opacity: 0;
+        transition: height 0.5s;
+        
+    }
+    .r0:hover .p0{
+        cursor: pointer;
+        bottom: 0;
+        height: 65%;
+        left: 14%;
+        opacity: 0.8;
+    }
+
+
+    .thirdpage button{
+        width: 40%;
+        height: 45%;
+        text-align: center;
+    }
+    .btn3{
+        margin-left: 35%;
+        font-size: medium;
+    }
+    .btn3 button{
+        background-color:#ccd5ae;
+        height: 60px;
+    }
+    /*--third page ends--*/
+    /*--fourthpage starts--*/
+    .fourthpage{
+        margin-top: 5%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .context4{
+        flex: 45%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-top: 0;
+        
+    }
+    .title4{
+        margin: 4%;
+        margin-bottom: 4%;
+        padding: 8%;
+        font-weight: 200;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .subbox1{
+        text-align: center;
+        font-size: large;
+        background-color: #e3e3e3;
+        margin-left: 5%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border:1px solid black;
+    }
+    .subbox2{
+        padding: 35px;
+        text-align: left;
+        margin-left: 5%;
+        background-color: #edede9;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border:1px solid black;
+    }
+    .box2{
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 3%;
+        border-radius:8px;
+        border:1px solid black;
+    }
+    .image4{
+        margin-top: 250px;
+        flex: 55%;
+        margin-left: 5%;
+        padding-right: 10%;
+        
+
+    }
+    .image4 img{
+        border-radius: 20px;
+        width: 100%;
+        height:60%;
+
+    }
+    /*--fourth page ends--*/
+    /*--sixth page starts--*/
+    .sixthpage{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sixthpage .yt{
+        display: flex;
+        flex-direction: row;
+        padding: 15%;
+        overflow: scroll;
+
+    }
+    .yt1{
+        flex: 50%;
+        padding-left: 15%;
+        transition-timing-function: linear;
+    }
+    
+    .yt1 iframe{
+        border-radius: 25px;
+        width: 400px;
+    }
+    .yt1:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .gallery{
+        overflow: scroll;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .gallery .galleryrow1{
+        margin-top: 40px;
+        display: flex;
+        width:45%;
+        justify-content: space-between;
+    }
+    .gallery .galleryrow2{
+        margin-top: 40px;
+        display: flex;
+        width:45%;
+        justify-content: space-between;
+    }
+    .gallery .galleryy{
+        margin: 5px;
+    }
+    .gallery img{
+        border-radius: 15px;
+    }
+    /*--sixth page ends--*/
+    /*--sixth page ends--*/
+    .sixthpage .lastpage{
+        display: flex ;
+        flex-direction: column;
+    }
+    .sixthpage .lastpage .lasttitle{
+        text-align: center;
+        justify-content: center;
+    }
+    .sixthpage .lastpage .lasttitle span{
+        color: red;
+    }
+    .sixthpage .lastimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 50px;
+    }
+    .lastimage .lasttext1{
+        overflow: hidden;
+        position: relative;
+    
+        
+    
+    }
+    .lasttext1 img{
+        border-radius: 25px;
+    }
+    
+   
+    .lastpara{
+        padding-top: 8px;
+        margin-left: 35px;
+        width:40%;
+        border-radius: 25px;
+        top: 20%;
+        bottom: 0;
+        height: 60%;
+        left: 24%;
+        opacity: 0.9;
+        text-align: center;
+        position: absolute;
+        background-color:#ccd5ae;
+        transition-timing-function: linear;
+    }
+    .lastpara:hover{
+        box-shadow:15px 15px 2px #d3d8c0;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    /*--seventh page ends--*/
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
